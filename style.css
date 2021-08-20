@@ -1,0 +1,167 @@
+a, svg {
+   text-decoration: none !important;
+   color: var(--purple) !important;
+}
+
+body {
+   color: var(--white) !important;
+   background-color: var(--blackSecondary) !important;
+}
+
+.attachment__frame {
+   border: none !important;
+}
+
+.inline_media_box > img {
+   border-radius: 5px !important;
+}
+
+.nav__link--home {
+   background-image: url(chrome-extension://__MSG_@@extension_id__/assets/home.svg) !important;
+}
+
+.nav__link--pings {
+   background-image: url(chrome-extension://__MSG_@@extension_id__/assets/messages.svg) !important;
+}
+
+.nav__link--hey {
+   background-image: url(chrome-extension://__MSG_@@extension_id__/assets/email.svg) !important;
+}
+
+.nav__link--activity {
+   background-image: url(chrome-extension://__MSG_@@extension_id__/assets/swap.svg) !important;
+}
+
+.nav__link--my-stuff {
+   background-image: url(chrome-extension://__MSG_@@extension_id__/assets/folder_open.svg) !important;
+}
+
+.nav__link--search {
+   background-image: url(chrome-extension://__MSG_@@extension_id__/assets/search.svg) !important;
+}
+
+.unread-badge {
+   background-color: var(--pink) !important;
+}
+
+.card, .options-menu__content, .input--select, bc-autocomplete .autocompletable, .btn__keyboard-shortcut, .panel--perma, .panel--project, .prompt, .recordable, .report-menu__item:hover:not(.report-menu__item--selected), .card__link, .boosts-report__card, .chat__header--profile, .recording-breadcrumbs, .chat__header, .chat-line__bubble, .messages-table td {
+   background-color: var(--black) !important;
+   color: var(--white) !important;
+   border-color: var(--blackSecondary) !important;
+}
+
+.thread-entry__avatar, .chat-line__avatar .avatar {
+   box-shadow: 0 0 0 1px var(--black), 0 0 0 5px var(--black) !important;
+}
+
+
+.nav__main, .ui-datepicker, .ui-datepicker-header, .break--on-background > span, .custom-radio__button {
+   background-color: var(--blackSecondary) !important;
+}
+
+.action-sheet__expansion-toggle {
+   border-color: var(--blackTernary) !important;
+}
+
+.panel--perma, .panel--project, .project-avatars__edit::after, .tabs__tab--active, .card--torn, .recording-breadcrumbs, .ui-datepicker, .sheet--shadowed {
+   box-shadow: none;
+}
+
+.panel--perma, .panel--project {
+   box-shadow: var(--purpleLight) 0px -1px 10px, var(--purpleLight) 0px 1px 4px, rgb(0, 0, 0) 0px 10px 30px !important;
+}
+
+.recording-breadcrumbs {
+   box-shadow: var(--purpleLight) 0px 1px 4px, rgb(0, 0, 0) 0px 10px 30px !important;
+}
+
+/*
+.nav__main , .list--unbulleted, .flush, .loading__hide, .u-display-ib {
+   background-color: transparent !important;
+}
+*/
+
+.chat-line__bubble {
+   background-color: var(--purple-transparent) !important;
+}
+
+.miniaturize-cards .card--folder, .card-grid--miniaturized .card--folder, .card__content, .boosts-report__date > span, .search-result--selected, .break > span, .reading--show-actions, .reading__actions, .thread-entry--no-background, .list--tableview li, .nav__recent:hover, .nav__my-stuff:hover, .reading:hover, .sheet {
+   background-color: var(--black) !important;
+}
+
+.btn, .search__reset, .report-menu__item--selected, .input, .nav-menu__sheet, .message .boosts, .document .boosts, .recordable .boosts, .boosts-report .boosts, .boost, .todos-form__date, .btn--arrow-top-icon, bc-autocomplete:not([multiple]) .autocompletableFDSFSD {
+   color: var(--white) !important;
+   background-color: var(--purple-transparent-solid) !important;
+   border-color: var(--blackSecondary) !important;
+}
+
+.app-banner, .app-banner--announcement {
+   background: var(--pinkLight) !important;
+}
+
+:root {
+   --black: #282a36; /*--bg-md*/
+   --blackSecondary: #21222c; /*--bg-dk*/
+   --blackTernary: #a7abbe; /*--text-dk:*/
+   --blackLight: hsla(230,15%,15%,5%);
+   --white: #f8f8f2; /*--text-md*/
+   --whiteSecondary: #fff;
+   --whiteLight: hsla(60,30%,96%,5%);
+   --cyan: #80ffea;
+   --cyanSecondary: #ccfff6;
+   --cyanLight: hsla(170,100%,75%,5%);
+   --green: #8aff80;
+   --greenSecondary: #d0ffcc;
+   --greenLight: hsla(115,100%,75%,5%);
+   --orange: #ffca80;
+   --orangeSecondary: #ffeacc;
+   --orangeLight: hsla(35,100%,75%,5%);
+   --pink: #ff79c6;
+   --pinkSecondary: #ffcce6;
+   --pinkLight: hsla(330,100%,75%,5%);
+   --purple: #9580ff;
+   --purpleSecondary: #d5ccff;
+   --purpleLight: hsl(250,100%,75%,5%);
+   --red: #ff9580;
+   --redSecondary: #ffd5cc;
+   --redLight: hsla(10,100%,75%,5%);
+   --yellow: #ffff80;
+   --yellowSecondary: #ffc;
+   --yellowLight: hsla(60,100%,75%,5%);
+   --cyan-transparent: rgba(128,255,234,0.1);
+   --green-transparent: rgba(138,255,128,0.1);
+   --orange-transparent: rgba(255,202,128,0.1);
+   --pink-transparent: rgba(255,128,191,0.1);
+   --purple-transparent: rgba(149,128,255,0.1);
+   --purple-transparent-solid: #33334A;
+   --red-transparent: rgba(255,149,128,0.1);
+   --yellow-transparent: rgba(255,255,128,0.1);
+   --disabled: #6c7393;
+   --gradientDegree: 135deg;
+   --glowColor: hsla(0,0%,100%,0.25);
+   --cyan-100: rgba(128,255,234,0.1);
+   --green-100: rgba(138,255,128,0.1);
+   --orange-100: rgba(255,202,128,0.1);
+   --pink-100: rgba(255,128,191,0.1);
+   --purple-100: rgba(149,128,255,0.1);
+   --red-100: rgba(255,149,128,0.1);
+   --yellow-100: rgba(255,255,128,0.1);
+   --cyan-200: rgba(128,255,234,0.2);
+   --green-200: rgba(138,255,128,0.2);
+   --orange-200: rgba(255,202,128,0.2);
+   --pink-200: rgba(255,128,191,0.2);
+   --purple-200: rgba(149,128,255,0.2);
+}
+
+::-webkit-scrollbar {
+   width: 0.7rem;
+}
+::-webkit-scrollbar-track {
+   background: transparent;
+   border-radius: 0.5rem;
+}
+::-webkit-scrollbar-thumb {
+   background: var(--disabled);
+   border-radius: 0.5rem;
+}
+::-webkit-scrollbar-corner { background: transparent; }
